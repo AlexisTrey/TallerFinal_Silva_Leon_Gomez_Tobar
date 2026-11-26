@@ -1,0 +1,10 @@
+Elemento,Valor
+Lenguaje de programación,Python 3.13.16
+Sistema operativo,Ubuntu 24.04.4 LTS
+Procesador,Intel(R) Xeon(R) CPU @ 2.00GHz
+Núcleos lógicos,2
+Memoria RAM,12.7 GB
+GPU,"Tesla T4, 15360 MiB"
+Placa base,Google Google Compute Engine
+TensorFlow / Keras,2.21.0 / 3.13.2
+Plataforma,Google Colab

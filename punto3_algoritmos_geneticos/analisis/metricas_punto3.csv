@@ -1,0 +1,3 @@
+escenario,generaciones_hasta_fitness_mayor_1000,minutos_hasta_fitness_mayor_1000,fitness_maximo,fitness_promedio_ultima_generacion,generaciones_totales,tiempo_total_min,generacion_nivel_completado,minutos_hasta_completar,completo_nivel,poblacion,tasa_mutacion_conexiones_base,tasa_mutacion_conexiones_final_prom,fitness_inicial_gen1,tasa_mejora_max_total,tasa_mejora_max_hasta_completar,tasa_mejora_promedio_total,max_generaciones_sin_mejora,individuos_evaluados,individuos_que_completaron,meta_x
+A,13,32.63,4135.5,993.12,51,679.367,37,387.15,Si,300,0.25,0.2593,30.0,80.5,92.98648648648648,19.409411764705883,8,12377,8,4824
+B,4,9.7,4472.5,2114.33,28,475.233,14,130.28,Si,300,0.25,0.246,1000.0,124.01785714285714,238.96428571428572,74.56178571428572,5,6201,369,4824

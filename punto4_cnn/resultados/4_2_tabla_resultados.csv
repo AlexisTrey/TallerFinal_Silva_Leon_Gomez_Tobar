@@ -1,0 +1,7 @@
+Exp,Modelo,Arquitectura resumida,Técnicas,Accuracy Train (%),Accuracy Val (%),Accuracy Test (%),Parámetros,Tiempo/Época (s),Épocas,Overfitting (pp)
+0,BASELINE,MLP: Flatten → D128 → D64 → Softmax,Ninguna,92.19,89.87,90.89,3547523,1.26,20,2.32
+1,CNN1,"2×[Conv-Pool](32,64) → Flatten → D128 → D64",Ninguna,100.0,97.6,97.87,4746563,3.42,20,2.4
+2,CNN2,"3×[Conv-Conv-Pool](32,64,128) → Flatten → D128 → Drop0.3 → D64",Dropout 0.3,99.68,97.33,97.2,2654883,9.01,20,2.34
+3,CNN3,CNN2 + BatchNorm,"BatchNorm, Dropout 0.3",99.5,98.49,98.18,2656227,11.03,20,1.01
+4,CNN4,DA + 4×[Conv-BN-Conv-BN-Pool](32..256) → GAP → D128 → Drop0.5 → D64,"DataAug, BatchNorm, Dropout 0.5, EarlyStopping, ReduceLROnPlateau",94.8,94.98,94.4,1216483,19.93,20,-0.18
+5,CNN5,CNN3 con Dropout 0.5,"BatchNorm, Dropout 0.5",97.81,96.76,96.53,2656227,10.46,20,1.05

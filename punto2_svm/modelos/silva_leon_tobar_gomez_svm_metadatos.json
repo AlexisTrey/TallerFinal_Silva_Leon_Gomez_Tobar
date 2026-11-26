@@ -1,0 +1,57 @@
+{
+  "descripcion": "Pipeline StandardScaler -> PCA(80 % varianza, whiten) -> SVC",
+  "entrada": "imagen en escala de grises ('L'), redimensionada a 32x32, valores /255, aplanada a un vector de 1024",
+  "clases": [
+    "Boot",
+    "Sandal",
+    "Shoe"
+  ],
+  "semilla": 3119,
+  "origen_datos": "copia local",
+  "python": "3.14.4",
+  "scikit_learn": "1.9.1",
+  "numpy": "2.5.5",
+  "pillow": "13.0.0",
+  "modelos": {
+    "cfg1": {
+      "archivo": "silva_leon_tobar_gomez_svm_cfg1_linear.joblib",
+      "Kernel": "Lineal",
+      "C": 1.0,
+      "Gamma/Degree": "N/A",
+      "Accuracy Test (%)": 86.69,
+      "Support Vectors": 3345
+    },
+    "cfg2": {
+      "archivo": "silva_leon_tobar_gomez_svm_cfg2_rbf.joblib",
+      "Kernel": "RBF",
+      "C": 1.0,
+      "Gamma/Degree": 0.1,
+      "Accuracy Test (%)": 92.38,
+      "Support Vectors": 5651
+    },
+    "cfg3": {
+      "archivo": "silva_leon_tobar_gomez_svm_cfg3_rbf.joblib",
+      "Kernel": "RBF",
+      "C": 1.0,
+      "Gamma/Degree": 1.0,
+      "Accuracy Test (%)": 51.69,
+      "Support Vectors": 10467
+    },
+    "cfg4": {
+      "archivo": "silva_leon_tobar_gomez_svm_cfg4_rbf.joblib",
+      "Kernel": "RBF",
+      "C": 10.0,
+      "Gamma/Degree": 1.0,
+      "Accuracy Test (%)": 54.42,
+      "Support Vectors": 10462
+    },
+    "cfg5": {
+      "archivo": "silva_leon_tobar_gomez_svm_cfg5_poly.joblib",
+      "Kernel": "Poly(2)",
+      "C": 1.0,
+      "Gamma/Degree": 2,
+      "Accuracy Test (%)": 91.89,
+      "Support Vectors": 3967
+    }
+  }
+}

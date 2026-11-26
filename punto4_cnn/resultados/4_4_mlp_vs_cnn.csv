@@ -1,0 +1,7 @@
+Métrica,MLP Baseline,Mejor CNN (CNN3),Mejora Absoluta,Mejora Relativa (%)
+Test Accuracy,0.9089,0.9818,0.0729,8.02
+Precision (macro),0.9088,0.9819,0.0731,8.05
+Recall (macro),0.9089,0.9818,0.0729,8.02
+F1-Score (macro),0.9085,0.9818,0.0733,8.06
+Parámetros totales,3547523,2656227,N/A,N/A
+Tiempo entrenamiento (min),0.42,3.68,N/A,N/A

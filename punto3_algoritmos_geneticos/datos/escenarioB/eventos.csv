@@ -1,0 +1,23 @@
+fecha_hora,evento,generacion,especie,genoma,fitness,rightmost,tiempo_entrenamiento_min,captura,detalle
+2026-11-21 20:15:43,NUEVO_RECORD,1,1,1,3.00,16,0.00,nuevo_record_escB_gen1_20261121_201543_001.png,mejor individuo hasta ahora
+2026-11-21 20:15:59,NUEVO_RECORD,1,67,1,444.50,954,0.27,nuevo_record_escB_gen1_20261121_201559_002.png,mejor individuo hasta ahora
+2026-11-21 20:16:09,NUEVO_RECORD,1,83,1,583.50,1287,0.43,nuevo_record_escB_gen1_20261121_201609_003.png,mejor individuo hasta ahora
+2026-11-21 20:17:04,NUEVO_RECORD,1,205,1,1000.00,1326,1.35,nuevo_record_escB_gen1_20261121_201704_004.png,mejor individuo hasta ahora
+2026-11-21 20:17:34,FIN_GENERACION_1,1,-,-,1000.00,-,1.85,fin_generacion_1_escB_gen1_20261121_201734_005.png,promedio 26.60
+2026-11-21 20:28:09,NUEVO_RECORD,4,131,4,1333.50,1859,9.70,nuevo_record_escB_gen4_20261121_202809_006.png,mejor individuo hasta ahora
+2026-11-21 20:28:09,FITNESS_SUPERA_1000,4,131,4,1333.50,1859,9.70,fitness_supera_1000_escB_gen4_20261121_202809_007.png,primer individuo con fitness > 1000
+2026-11-21 20:51:43,NUEVO_RECORD,6,57,2,1414.50,1860,22.10,nuevo_record_escB_gen6_20261121_205143_008.png,mejor individuo hasta ahora
+2026-11-21 21:01:30,NUEVO_RECORD,7,29,3,1652.50,2212,31.88,nuevo_record_escB_gen7_20261121_210130_009.png,mejor individuo hasta ahora
+2026-11-21 21:40:46,NUEVO_RECORD,10,14,2,1670.00,2537,71.15,nuevo_record_escB_gen10_20261121_214046_010.png,mejor individuo hasta ahora
+2026-11-21 21:41:21,NUEVO_RECORD,10,16,3,2765.50,4035,71.73,nuevo_record_escB_gen10_20261121_214121_011.png,mejor individuo hasta ahora
+2026-11-21 22:01:04,NUEVO_RECORD,11,52,5,3269.00,4355,91.45,nuevo_record_escB_gen11_20261121_220104_012.png,mejor individuo hasta ahora
+2026-11-21 22:39:46,META_DETECTADA,14,5,8,3617.50,4824,130.15,meta_detectada_escB_gen14_20261121_223946_013.png,metaX=4823
+2026-11-21 22:39:54,NUEVO_RECORD,14,5,8,4004.00,5025,130.28,nuevo_record_escB_gen14_20261121_223954_014.png,mejor individuo hasta ahora
+2026-11-21 22:39:54,NIVEL_COMPLETADO,14,5,8,4004.00,5025,130.28,nivel_completado_escB_gen14_20261121_223954_015.png,rightmost 5025 > meta 4823
+2026-11-21 23:12:32,NUEVO_RECORD,14,30,5,4345.50,5023,139.50,nuevo_record_escB_gen14_20261121_231232_016.png,mejor individuo hasta ahora
+2026-11-21 23:29:44,NUEVO_RECORD,15,16,4,4368.50,5026,156.63,nuevo_record_escB_gen15_20261121_232944_017.png,mejor individuo hasta ahora
+2026-11-21 23:30:11,NUEVO_RECORD,15,16,7,4382.00,5026,157.08,nuevo_record_escB_gen15_20261121_233011_018.png,mejor individuo hasta ahora
+2026-11-22 00:09:37,NUEVO_RECORD,17,13,7,4423.50,5023,196.52,nuevo_record_escB_gen17_20261122_000937_019.png,mejor individuo hasta ahora
+2026-11-22 00:27:41,NUEVO_RECORD,18,12,5,4461.00,5025,214.58,nuevo_record_escB_gen18_20261122_002741_020.png,mejor individuo hasta ahora
+2026-11-22 00:48:48,NUEVO_RECORD,19,12,2,4470.00,5026,235.70,nuevo_record_escB_gen19_20261122_004848_021.png,mejor individuo hasta ahora
+2026-11-22 03:15:33,NUEVO_RECORD,25,18,2,4472.50,5026,382.32,nuevo_record_escB_gen25_20261122_031533_022.png,mejor individuo hasta ahora

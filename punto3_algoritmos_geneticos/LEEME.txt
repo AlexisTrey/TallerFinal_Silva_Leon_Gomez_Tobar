@@ -1,0 +1,29 @@
+Punto 3 - Algoritmos geneticos en videojuegos
+Grupo: Silva Leon Tovar Gomez
+
+informe/
+  Punto3_Silva_Leon_Tovar_Gomez.docx   Seccion 3 del informe (texto, tablas, figuras y referencias).
+
+scripts_lua/
+  silva_leon_tovar_gomez_escenarioA.lua      Entrenamiento, Escenario A (Yoshi's Island 1).
+  silva_leon_tovar_gomez_escenarioB.lua      Entrenamiento, Escenario B (Yoshi's Island 2).
+  silva_leon_tovar_gomez_generalizacion.lua  Mejor individuo de A ejecutado en el nivel B.
+  NEATEvolve_original_SethBling.lua          Script original, como referencia.
+
+modelos/
+  backup.51.YI1.state.pool   Poblacion final del Escenario A (mejor individuo: fitness 4135,5).
+  backup.28.YI2.state.pool   Poblacion final del Escenario B (mejor individuo: fitness 4472,5).
+  YI1.State, YI2.State       Puntos de guardado al inicio de cada nivel (nucleo Snes9x).
+
+datos/        Registros CSV generados durante el entrenamiento y la generalizacion.
+analisis/     analisis_punto3.py (genera metricas_punto3.csv y las figuras).
+figuras/      Grafica de convergencia e individuos que completan el nivel.
+evidencias/
+  capturas/                Capturas de pantalla completa (generacion 1, fitness > 1000,
+                           mejor generacion, nivel completado y generalizacion).
+  capturas_automaticas/    Capturas tomadas por el script en cada evento.
+  videos/                  Videos del mejor individuo de A, de B y de la generalizacion.
+
+Uso de los scripts: copiar el .lua, el .State y el .pool en la carpeta de EmuHawk.exe
+(BizHawk 2.3.1, nucleo SNES Snes9x), cargar la ROM Super Mario World (USA) y abrir
+el script desde Tools > Lua Console.

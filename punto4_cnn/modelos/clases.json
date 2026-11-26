@@ -1,0 +1,13 @@
+{
+  "clases": [
+    "Boot",
+    "Sandal",
+    "Shoe"
+  ],
+  "img_size": [
+    96,
+    96
+  ],
+  "entrada": "RGB uint8 0-255 (la normalización está dentro del modelo)",
+  "mejor_modelo": "Silva_Leon_Gomez_Tobar_cnn3.h5"
+}
