@@ -1,5 +1,10 @@
 # Taller Final de Inteligencia Computacional — UPTC
-**Integrantes:** Silva · León · Tobar · Gómez  
+**Integrantes:** 
+Cristian Javier Gómez Pérez
+Juan David León Numpaque
+Miguel Felipe Silva Guisao
+Yulian Alexis Tobar Ríos
+  
 **Semilla aleatoria de reproducibilidad:** `3119`
 
 ---
